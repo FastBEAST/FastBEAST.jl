@@ -40,7 +40,7 @@ for mesh in meshes
         (Helmholtz3D.doublelayer(; gamma=3.0), Y1, X1, true)
         (Helmholtz3D.doublelayer_transposed(; gamma=3.0), Y1, X1, true) 
         (Helmholtz3D.hypersingular(; gamma=3.0), Y1, X1, true) 
-        (Maxwell3D.singlelayer(wavenumber=k), Xt, Xs, true)
+        (Maxwell3D.singlelayer(wavenumber=k), Yt, Xs, true)
         (Maxwell3D.doublelayer(wavenumber=k), Yt, Xs, true)
     ]
 
